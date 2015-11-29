@@ -26,6 +26,7 @@ This is the presentation 4 for Fall 2015 CSCI 5828 class. This presentation give
 
 - [Classes and Objects](Classes and Objects.md)  
 
+- [Inheritance](Inheritance.md)  
 
 ###Chapter 4: Summary  
 
