@@ -20,7 +20,7 @@ Basic data types(like strings and numbers) and user interface elements(like butt
 
 ##Classes Definition
 
-In Objective-C, the class is defined in two different sections namely **@interface** and **@implementation**. In this part, we are going to talk about how to define classes in Objective-C by declaring an interface, which describes the way we intend the class and its instances to be used. This interface includes the list of messages that the class can receive, so we also need to provide the class implementation, which contains the code to be executed in response to each message.
+In Objective-C, the class is defined in two different sections namely **@interface** and **@implementation**. In this part, we are going to talk about how to define classes in Objective-C by declaring an interface, which describes the way we intend the class and its instances to be used. This interface includes the list of messages that the class can receive, so we also need to provide the class implementation, which contains the code to be executed in response to each message.  
 
 A class definition starts with the keyword **@interface** followed by the interface(class) name; and the class body, enclosed by a pair of curly braces. In Objective-C, all classes are derived from the base class called **NSObject**. It is the superclass of all Objective-C classes. It provides basic methods like memory allocation and initialization.   
 
@@ -162,4 +162,5 @@ int main( )
 
 When the above code is compiled and executed, we will have the result as below: 
 
-[classes_objects.png]
+![Alt text](/image/classes_objects.png) 
+
