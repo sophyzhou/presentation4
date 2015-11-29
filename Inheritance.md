@@ -12,7 +12,7 @@
   [<i class="icon-file"></i>Data Members Access](#data-members-access)  
 
 ##Inheritance Conception
-[humansgorillas.png]
+![Alt text](/image/humansgorillas.png) 
 Source: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/DefiningClasses/DefiningClasses.html#//apple_ref/doc/uid/TP40011210-CH3-SW1
 
 The concept of inheritance brings something of a real-world view to programming. In the world of object-oriented programming, objects are also categorized into hierarchical groups. The class at the top of the hierarchy is known as the **base class** or **root class** and the derived classes as **subclasses** or **child classes**. The class from which a subclass is derived is called the **parent class**. 
