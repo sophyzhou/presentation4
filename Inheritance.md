@@ -21,7 +21,7 @@ Objective-C only support *single inheritance* which means a subclass can only be
 Classes need not only be derived from a root class. A subclass can also inherit from another subclass with the potential to create large and complex class hierarchies.
 
 
-##INheritance Example
+##Inheritance Example
 
 
 
