@@ -5,11 +5,8 @@
 
   [<i class="icon-file"></i>Inheritance Conception](#inheritance-conception)  
   
- [<i class="icon-file"></i>Properties](#properties)  
+  [<i class="icon-file"></i>Inheritance Example](#inheritance-example)  
  
- [<i class="icon-file"></i>Objects Allocation and Initialization](#objects-allocation-and-initialization)  
- 
-  [<i class="icon-file"></i>Data Members Access](#data-members-access)  
 
 ##Inheritance Conception
 ![Alt text](/image/humansgorillas.png) 
@@ -24,7 +21,7 @@ Objective-C only support *single inheritance* which means a subclass can only be
 Classes need not only be derived from a root class. A subclass can also inherit from another subclass with the potential to create large and complex class hierarchies.
 
 
-##Example
+##INheritance Example
 
 
 
