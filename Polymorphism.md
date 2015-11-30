@@ -23,6 +23,22 @@ For example, given a base class shape, polymorphism enables the programmer to de
 ## Polymorphism Example
 In Objective-C, polymorphism is the fairly standard subtype polymorphism you find in most class based object oriented languages.  It occurs when there is a hierarchy of classes and they are related by *inheritance*.
 
+Here we use the example about "Shape" in [Inheritance](Inheritance.md). But we modify the code in main method by using Polymorphism philosophy. 
+
+Instead of initializing the *square* instance like this,  
+
+```
+Square *square = [[Square alloc]initWithSide:10.0];
+```
+
+We initialize the *square* instance as below,
+
+```
+Shape *square = [[Square alloc]initWithSide:10.0];
+``` 
+
+And we do the same modification to rectangle instance initialization. And the main method is like below. 
+
 ```
 int main(int argc, const char * argv[])
 {
