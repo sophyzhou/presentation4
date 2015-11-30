@@ -28,8 +28,10 @@ This is the presentation 4 for Fall 2015 CSCI 5828 class. This presentation give
 
 - [Inheritance](Inheritance.md)  
 
+- [Polymorphism](Polymorphism.md)  
+
 ###Chapter 4: Summary  
 
-- [Summary](Maven_Create&Build Project.md)  
+- [Summary](Summary.md)  
 
 - [Reference](Reference.md)  
