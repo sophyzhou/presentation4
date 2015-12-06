@@ -18,9 +18,7 @@ This is the presentation 4 for Fall 2015 CSCI 5828 class. This presentation give
 
 - [Maven Repositories and Dependency Resolution](Maven_Repository.md)  
 
-- [Maven Profiles and Properties](Maven_Profiles and_Properties.md)  
-
-- [Maven Project Templates](Maven_Project_Templates.md)  
+- [Maven Profiles and Properties](Maven_Profiles and_Prop
 
 ###Chapter 3: Advanced Objective-C 
 
