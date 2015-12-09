@@ -20,7 +20,9 @@ This is the presentation 4 for Fall 2015 CSCI 5828 class. This presentation give
 
 - [Encapsulation](Encapsulate.md)  
 
-###Chapter 3: Advanced Objective-C 
+###Chapter 3: Advanced Objective-C
+ 
+- [Class Customization](Customization.md)  
 
 ###Chapter 4: Summary  
 
