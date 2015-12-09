@@ -65,7 +65,7 @@ int main(int argc, const char * argv[])
 
 Now when we compile and run the program, we will get the following result.
 
-[category.png]
+![Alt text](/image/category.png) 
 
 ##Extensions
 
