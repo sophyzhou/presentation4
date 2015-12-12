@@ -8,7 +8,7 @@ This is the presentation 4 for Fall 2015 CSCI 5828 class. This presentation give
 
 ###Chapter 1: Introduction to Objective-C 
 
-- [Introduction to Objective-C](Introduction.md)  
+- [Introduction](Introduction.md)  
 
 ###Chapter 2: Basic Objective-C 
   
@@ -23,6 +23,8 @@ This is the presentation 4 for Fall 2015 CSCI 5828 class. This presentation give
 ###Chapter 3: Advanced Objective-C
  
 - [Class Customization](Customization.md)  
+
+- [Protocols](Protocols.md)  
 
 ###Chapter 4: Summary  
 
