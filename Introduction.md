@@ -31,7 +31,7 @@ sophy->drive("Boulder", "New York")
 ##Benefits of Objective-C
 
 Developers use Objective-C for various reasons.   
-1. **Object-oriented Features**. Object-oriented techniques could facilitate us to take advantages of functionality which is packaged in the Cocoa frameworks.   
+- **Object-oriented Features**. Object-oriented techniques could facilitate us to take advantages of functionality which is packaged in the Cocoa frameworks.   
 2. **Benifits inherited from C**. Because Objective-C inherites from C and extend C capacities, you get all the benefits of C when working within Objective-C. You can choose when to apply object-oriented way and when to stick to procedural programming techniques.  
 3. **Simplicity**. It is easy to learn for beginners, since its syntax is simple, descriptive, unambiguous.  
 4. **Dynamic Capacities**. Objective-C is the most dynamic object-oriented language based on C. The dynamic capacities enable Objective-C programs to have more flexibility.  
