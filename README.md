@@ -2,7 +2,10 @@
 
 Author: Yun Zhou
 
-This is the presentation 4 for Fall 2015 CSCI 5828 class. This presentation gives an introduction to Objective-C.
+This is the presentation 4 for Fall 2015 CSCI 5828 class. 
+
+This presentation gives a general introduction to Objective-C with examples and sample codes.
+
 
 ##Table of Contents    
 
