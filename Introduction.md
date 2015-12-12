@@ -16,7 +16,7 @@ Objective-C is the primary programming language for Apple’s iOS and OS X opera
 
 Objective-C is implemented as set of extensions to C. It inherits the syntax, primitive types, and flow control statements of C and adds syntax for defining classes and methods.
 
-Like C++, Objective-C is designed to give C a full capability for object-oriented programming, but the two languages accomplished this in fundamentally difference ways. Since Objective C defers most of its decisions to run-time rather than compile-time, it has more dynamic capacities in the langurage itself. 
+Both Objective C and C++ are designed to give C full object-oriented features for programming, but the two languages accomplished this in fundamentally difference ways. Since Objective C defers most of its decisions to run-time rather than compile-time, it has more dynamic capacities in the langurage itself. 
 
 Another big difference between C++ and Objective C is the syntax. Comparing with C++, the resulting code of Objective-C is more descriptive so that it is virtually less possible to misunderstand or misuse it. For example, the following sample code shows a C++ method call with its Objective-C equivalent.
 
