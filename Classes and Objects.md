@@ -18,11 +18,11 @@ In OS X or iOS development, Cocoa and Cocoa Touch provide us a large libraray of
 
 ##Classes Definition
 
-In Objective-C, the class is defined in two different sections by using **@interface** and **@implementation**. By declaring an *interface*, we describe the way we want the class and its instances to be used. This interface includes the list of messages that the class can receive, so we also need to provide the class *implementation*, which contains the code to be executed in response to each message.  
+In Objective-C, class is defined in two different sections by using **@interface** and **@implementation**. By declaring an *interface*, we describe the way we want the class and its instances to be used. This interface includes the list of messages that the class can receive, so we also need to provide the class *implementation*, which contains the code to be executed in response to each message.  
 
 A class definition begins with the keyword **@interface** followed by the class name and the class body, enclosed by a pair of curly braces.  
  
-For example, we defined the *Rectangle* data type using the keyword class as follows:
+For example, we defined the *Rectangle* data type using the keyword @interface as follows:
 
 ```
 @interface Rectangle:NSObject
@@ -44,20 +44,21 @@ In Objective-C, **NSObject** is the superclass of all Objective-C classes which 
 ##Properties
 Defining property is a robust way to handle object’s data. The properties are introduced in Objective-C to ensure that the instance variable of the class can be accessed properly outside the class. In other words, we need to define a property if we want a single piece of data (or a class object member) to be visible to other classes.    
 
-First, as we have seen in the above code, properties is declared by  using keyword **@property**.  This is followed by the datatype of the variable. Then this keyword is followed with *property attribute*, which define how the property behaves. Here the property attributes are *nonatomic* and *readwrite* in above sample code. Some commonly used attributes are summarized below.
+First, as we have seen in the above code, properties is declared by using keyword **@property**.Then this keyword is followed with *property attribute*, which define how the property behaves. Here the property attributes are *nonatomic* and *readwrite* in above sample code. Then it is followed by the datatype of the variable. Some commonly used attributes are summarized below.
 
 - **getter=**: 	Use a custom name for the getter method.
 - **setter=**: 	Use a custom name for the setter method.
-- **readwrite** : Use readwrite attribute to give write access to the property.
+- **readwrite** : Give read and write access to the property.
 - **readonly**:	 Prevent overwriting of the property value. 
-- **nonatomic**:	The nonatomic attribute, makes the compiler NOT check what other threads are executing over the value at the same time. If you are not doing some heavy thread work use nonatomic to speed up your code.
+- **nonatomic**: Make the compiler not check what other threads are executing over the value at the same time. If you are not doing some heavy thread work, using nonatomic property could speed up your code.
 - **strong**:	Create an owning relationship between the property and the assigned value. This is the default for object properties.
 - **weak**:	Create a non-owning relationship between the property and the assigned value. Use this to prevent retain cycles.
 - **copy**:	Create a copy of the assigned value instead of referencing the existing instance.
 - **retain**:  The retain attribute, instructs the setter to retain the value when it’s being assigned and release the previous value if set.   
 
+                                                              referenced from: http://rypress.com/tutorials/objective-c/properties
 
-After we define the property in the class interface, we need to also define the **property implementation**:
+After we define the property in the class interface, we need to also define the **property implementation** as below:
 
 ```
 @implementation Rectangle
@@ -80,7 +81,7 @@ After we define the property in the class interface, we need to also define the 
 ```
 
 ##Objects Allocation and Initialization
-An object is created from a class. We declare objects of a class with exactly the same sort of declaration that we declare variables of basic types. We most often create instances of classes by calling **alloc**. This is a class method of NSObject, which means it is available to any class in the frameworks or in our own code. We simply send a message to the class, and we get back a new instance. Following statements declare an object of class Rectangle:
+An object is created from a class. We declare objects of a class with exactly the same sort of declaration that we declare variables of basic types. We often create instances of classes by calling **alloc**. This is a class method of NSObject, and it is available to any class in the frameworks or in our own code. We simply send a message to the class, and then we get back a new instance. Following statements declare an object of class *Rectangle*:
 ```
 // Create rectangle1 object of type Rectangle
 Rectangle *rectangle1 = [Rectangle alloc];   
@@ -101,7 +102,7 @@ Rectangle *rectangle1 = [[Rectangle alloc]init];
 
 ##Data Members Access
 
-Here an executable sample code with main method is provided to check the whether we can access the data members.  We declared two instances of Rectangle class and calculated their areas respectively by using their specific widths. 
+Here is an executable sample code with main method provided to check that whether we can access the data members. We declared two instances of *Rectangle* class and calculated their areas respectively by using their specific widths. 
 
 ```
 #import <Foundation/Foundation.h>
