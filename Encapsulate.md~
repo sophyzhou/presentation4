@@ -4,15 +4,13 @@
 Encapsulation is an important concept in object-oriented programming. We will talk about this topic by the following order. 
 
   [<i class="icon-file"></i>Data Encapsulation Conception](#data-encapsulation-conception)  
-
   [<i class="icon-file"></i>Data Encapsulation in Objective-C](#data-encapsulation-in-objective-c)  
-
   [<i class="icon-file"></i>Example](#example)  
     
 
 
 ##Data Encapsulation  Conception
-"**Data encapsulation**, also known as data hiding, is the mechanism whereby the implementation details of a class are kept hidden from the user. The user can only perform a restricted set of operations on the hidden members of the class by executing special functions commonly called methods. ”   
+"**Data encapsulation**, also known as data hiding, is the mechanism whereby the implementation details of a class are kept hidden from the user. The user can only perform a restricted set of operations on the hidden members of the class by executing special functions commonly called methods. ” 
 --referenced from Wiki(https://en.wikipedia.org/wiki/Data_encapsulation)
                                                   
 Data encapsulation provides a cushion between the developer of a class and the user of a class. It binds together the data and functions that manipulate the data and that keeps both safe from outside interference and misuse. When developers distributes their class, the users do not have to care about the internals of the class at all. Users are only provided with what developers wanted them to have. When developers make some modification of the internal code, users do not need to rewrite their code. 

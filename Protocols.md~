@@ -28,7 +28,7 @@ Protocols can include declarations for both methods and properties. Keyword **@r
 
 ##Conforming to Protocols
 
-Here is the syntax for a class named *MyClass* conforming to a protocol named *MyProtocol*:
+Here is the syntax for class conforming to protocol:
 
 ```
 @interface MyClass : NSObject <MyProtocol>
@@ -38,7 +38,8 @@ Here is the syntax for a class named *MyClass* conforming to a protocol named *M
 
 The above code means that any instance of *MyClass* will respond not only to the methods declared specifically in the interface, but that *MyClass* also provides implementations for the required methods in *MyProtocol*. Since the adoption of the protocol is sufficient, we do not need to redeclare the protocol methods in the class interface.
 
-In order to apply multiple protocols, you can specify them as a comma-separated list, like this:
+When you want a class to apply multiple protocols, you can specify them as a comma-separated list, like this:
+
 
 ```
 @interface MyClass : NSObject <MyProtocol, MySecondProtocol, MyThirdProtocol>

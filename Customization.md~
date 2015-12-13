@@ -1,12 +1,14 @@
 
 #Objective-C Class Customization
 
-"Sometimes, you may want to extend an existing class by adding utility behavior that is useful only in certain circumstances. In this situation, it doesn’t always make sense to add the utility behavior to the original class interface. Such behavior may be unlikely needed during majority of times in an application. Moreover, it doesn’t always make sense to subclass the existing class, because you may want such utility behavior available not only to the original class but also any subclasses of that class."  
+Sometimes, you may want to extend an existing class by adding utility behavior that is useful only in certain circumstances.
+
+"In situations like this, it doesn’t always make sense to add the utility behavior to the original class interface. Such behavior may be unlikely needed during majority of times in an application. Moreover, it doesn’t always make sense to subclass the existing class, because you may want such utility behavior available not only to the original class but also any subclasses of that class."
 
 referenced from
 https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/CustomizingExistingClasses/CustomizingExistingClasses.html#//apple_ref/doc/uid/TP40011210-CH6-SW1
 
-Instead, Objective-C provides us two ways to add our own methods to the existing classes by using **categories** and **extensions**.  
+Instead, Objective-C provides us two ways to add our own methods to the existing classes by**categories** and **extensions**.  
 
 
   [<i class="icon-file"></i>Categories](#categories)  
