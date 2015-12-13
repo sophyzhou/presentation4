@@ -1,5 +1,5 @@
 
-#Objective-C Data Data Encapsulation
+#Objective-C Data Encapsulation
 
 Encapsulation is an important concept in object-oriented programming. We will talk about this topic by the following order. 
 
@@ -13,7 +13,7 @@ Encapsulation is an important concept in object-oriented programming. We will ta
 "**Data encapsulation**, also known as data hiding, is the mechanism whereby the implementation details of a class are kept hidden from the user. The user can only perform a restricted set of operations on the hidden members of the class by executing special functions commonly called methods. ” 
 --referenced from Wiki(https://en.wikipedia.org/wiki/Data_encapsulation)
                                                   
-Data encapsulation provides a cushion between the developer of a class and the user of a class. It binds together the data and functions that manipulate the data and that keeps both safe from outside interference and misuse. When developers distributes their class, the users do not have to care about the internals of the class at all. By using encapsulation,  users are provided with what developers wanted them to have. When developers make some modification of the internal code, users do not need to rewrite their code. 
+Data encapsulation provides a cushion between the developer of a class and the user of a class. It binds together the data and functions that manipulate the data and that keeps both safe from outside interference and misuse. When developers distributes their class, the users do not have to care about the internals of the class at all. Users are only provided with what developers wanted them to have. When developers make some modification of the internal code, users do not need to rewrite their code. 
 
 Encapsulation is important because the structure of the data and how it is formatted may change over time. By encapsulating the data using **class methods**, we can separate how that data is returned from how it is stored internally. This could make sure the data returned is always consistent. 
 
