@@ -1,6 +1,7 @@
 
 #Objective-C Inheritance
 
+Inheritance is a very important concept in object-oriented programming. In this chapter we will use an analogy in natural world to illustrate the conception of inheritance. And then we will provide an example of inheritance in Objective C.  
 
   [<i class="icon-file"></i>Inheritance Conception](#inheritance-conception)  
   
