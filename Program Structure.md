@@ -32,9 +32,9 @@ Then we are going to dive into the details of each part of the code.
 
 1. **Preprocessor command**. The first line of the program *#import <Foundation/Foundation.h>* informs Objective-C compiler to include Foundation.h file before going to actual compilation. 
 
-2. **Interface**. The line *@interface MyClass:NSObject* shows how to create an interface. And the next line *(void)sampleMethod*; shows how to declare a method. *@end* marks the end of an interface.
+2. **Interface**. The line *@interface MyClass:NSObject* shows how to create an interface. And the next line *(void)MyMethod*; shows how to declare a method. *@end* marks the end of an interface.
 
-3. **Inplementation**. The line *@implementation MyClass* shows the concrete implementation of interface MyClass. *(void)sampleMethod{}* gives the implementation of the MyMethod. And here NSLog(...) is used to print the message "Hello, World!". *@end* marks the end of an implementation.
+3. **Inplementation**. The line *@implementation MyClass* shows the concrete implementation of interface MyClass. *(void)MyMethod{}* gives the implementation of the MyMethod. And here NSLog(...) is used to print the message "Hello, World!". *@end* marks the end of an implementation.
 
 4. **Main function**. The line *int main()* is the main function where program execution begins. Objective C use /*...*/ to add comments. 
 
