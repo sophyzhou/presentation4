@@ -61,40 +61,39 @@ First of all, we define the **parent class**, *Shape* class. Two methods, *print
 
 ```
 
-Here we inherit our *Square* class from the parent class *Shape* . We override the *printArea()* method and we implement the *calculateArea()* method. 
+Here we inherit our *Circle* class from the parent class *Shape* . We override the *printArea()* method and we implement the *calculateArea()* method. 
 
 ```
-@interface Square : Shape
+@interface Circle : Shape
 {
-    double length;
+    CGFloat radius;
 }
 
-- (id)initWithSide:(double)side;
+- (id)initWithSide:(CGFloat)side;
 
 - (void)calculateArea;
 
 @end
 
-@implementation Square
+@implementation Circle
 
-- (id)initWithSide:(double)side{
-    length = side;
+- (id)initWithSide:(CGFloat)side{
+    radius = side;
     return self;
 }
 
 - (void)calculateArea{
-    area = length * length;
+    area = 3.14 * radius * radius;
 }
 
 - (void)printArea{
-    NSLog(@"The area of square is %f", area);
+    NSLog(@"The area of circle is %f", area);
 }
-
 
 @end
 ```
 
-Here we inherit our *Rectangle* class from the parent class *Shape* . We keep the *printArea()* method the same as the one in parent class and we implement the *calculateArea()* method in a different way from that in *Square* class. 
+Here we inherit our *Rectangle* class from the parent class *Shape* . We keep the *printArea()* method the same as the one in parent class and we implement the *calculateArea()* method in a different way from that in *Circle* class. 
 ```
 @interface Rectangle : Shape
 {
@@ -128,10 +127,11 @@ Finally, we define our main method to test the inheritance.
 int main(int argc, const char * argv[])
 {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    
-    Square *square = [[Square alloc]initWithSide:10.0];
-    [square calculateArea];
-    [square printArea];
+    NSLog(@"Author: Yun Zhou");
+
+    Circle *circle = [[Circle alloc]initWithSide:10.0];
+    [Circle calculateArea];
+    [Circle printArea];
     
     Rectangle *rect = [[Rectangle alloc]
     initWithLength:10.0 andBreadth:5.0];
@@ -147,4 +147,4 @@ int main(int argc, const char * argv[])
 And we compile and execute the code, the result is like below:
 ![Alt text](/image/inheritance.png) 
 
-we can find that the *printArea()* method in the superclass is overriden by the subclass *Square*. And the empty *calculateArea()* method in the superclass is implemented by subclass *Square* and *Rectangle* in differenct ways.  
+we can find that the *printArea()* method in the superclass is overriden by the subclass *Circle*. And the empty *calculateArea()* method in the superclass is implemented by subclass *Circle* and *Rectangle* in differenct ways.  
