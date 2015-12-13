@@ -2,16 +2,14 @@
 #Objective-C Classes and Objects
 
 
-Objects in Objective-C are just like objects in other object-oriented programming languages: they package data with related behavior. An object is an instance of a class. Class is blueprint for object which describes the behavior and properties common to any particular type of object. 
+Class and object are very important concepts in object-oriented programming. A class provides the blueprint for object which describes the properties and behaviors common to the object. An object is an instance of a class, which stores its properties in variables and exposes its behavior through methods. 
 
-In OS X or iOS development, we don’t need to create objects from scratch to solve every conceivable problem; instead we have a large library of existing objects available to use, provided by Cocoa and Cocoa Touch.
-
-Basic data types(like strings and numbers) and user interface elements(like buttons and table views) are immediately usable.  On the other hand, some objects are designed for us to customize with our own code to behave in the way we want. 
+In OS X or iOS development, Cocoa and Cocoa Touch provide us a large libraray of existing objects available to use.In this way, we don’t need to create objects from scratch to solve every conceivable problem. Basic data types(like strings and numbers) and user interface elements(like buttons and table views) are immediately usable. On the other hand, some objects are designed for us to customize with our own code to behave in the way we want. 
 
 
   [<i class="icon-file"></i>Classes Definition](#classes-definition)  
   
- [<i class="icon-file"></i>Properties Specification](#properties-specification)  
+ [<i class="icon-file"></i>Properties](#properties)  
  
  [<i class="icon-file"></i>Objects Allocation and Initialization](#objects-allocation-and-initialization)  
  
@@ -20,10 +18,10 @@ Basic data types(like strings and numbers) and user interface elements(like butt
 
 ##Classes Definition
 
-In Objective-C, the class is defined in two different sections namely **@interface** and **@implementation**. In this part, we are going to talk about how to define classes in Objective-C by declaring an interface, which describes the way we intend the class and its instances to be used. This interface includes the list of messages that the class can receive, so we also need to provide the class implementation, which contains the code to be executed in response to each message.  
+In Objective-C, the class is defined in two different sections by using **@interface** and **@implementation**. By declaring an *interface*, we describe the way we want the class and its instances to be used. This interface includes the list of messages that the class can receive, so we also need to provide the class *implementation*, which contains the code to be executed in response to each message.  
 
-A class definition starts with the keyword **@interface** followed by the interface(class) name; and the class body, enclosed by a pair of curly braces. In Objective-C, all classes are derived from the base class called **NSObject**. It is the superclass of all Objective-C classes. It provides basic methods like memory allocation and initialization.   
-
+A class definition begins with the keyword **@interface** followed by the class name and the class body, enclosed by a pair of curly braces.  
+ 
 For example, we defined the *Rectangle* data type using the keyword class as follows:
 
 ```
@@ -40,8 +38,11 @@ For example, we defined the *Rectangle* data type using the keyword class as fol
 @end
 ```
 
-##Properties Specification
-Objective C is a very mature programming language, and also one that’s designed very careful for the benefit of the programmer. Properties are a robust way to handle object’s data. They are introduced in Objective-C to ensure that the instance variable of the class can be accessed properly outside the class. In other words, we need to define a property if we want a single piece of data (or a class object member) to be visible to other classes.    
+In Objective-C, **NSObject** is the superclass of all Objective-C classes which provides basic methods like memory allocation and initialization.   
+
+
+##Properties
+Defining property is a robust way to handle object’s data. The properties are introduced in Objective-C to ensure that the instance variable of the class can be accessed properly outside the class. In other words, we need to define a property if we want a single piece of data (or a class object member) to be visible to other classes.    
 
 First, as we have seen in the above code, properties is declared by  using keyword **@property**.  This is followed by the datatype of the variable. Then this keyword is followed with *property attribute*, which define how the property behaves. Here the property attributes are *nonatomic* and *readwrite* in above sample code. Some commonly used attributes are summarized below.
 
