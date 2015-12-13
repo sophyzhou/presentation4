@@ -145,6 +145,15 @@ int main(int argc, const char * argv[])
 ```
 
 And we compile and execute the code, the result is like below:
-![Alt text](/image/inheritance.png) 
+
+```
+Executing the program....
+$demo
+
+2015-12-13 14:36:36.127 demo[24443] Author: Yun Zhou
+2015-12-13 14:36:36.127 demo[24443] The area of circle is 314.000000
+2015-12-13 14:36:36.127 demo[24443] The area is 50.000000
+
+```
 
 we can find that the *printArea()* method in the superclass is overriden by the subclass *Circle*. And the empty *calculateArea()* method in the superclass is implemented by subclass *Circle* and *Rectangle* in differenct ways.  

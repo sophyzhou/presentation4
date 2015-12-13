@@ -93,7 +93,7 @@ Here we inherit our *Circle* class from the parent class *Shape* . We override t
 @end
 ```
 
-Here we inherit our *Rectangle* class from the parent class *Shape* . We keep the *printArea()* method the same as the one in parent class and we implement the *calculateArea()* method in a different way from that in *Square* class. 
+Here we inherit our *Rectangle* class from the parent class *Shape* . We keep the *printArea()* method the same as the one in parent class and we implement the *calculateArea()* method in a different way from that in *Circle* class. 
 ```
 @interface Rectangle : Shape
 {
@@ -147,4 +147,4 @@ int main(int argc, const char * argv[])
 And we compile and execute the code, the result is like below:
 ![Alt text](/image/inheritance.png) 
 
-we can find that the *printArea()* method in the superclass is overriden by the subclass *Square*. And the empty *calculateArea()* method in the superclass is implemented by subclass *Square* and *Rectangle* in differenct ways.  
+we can find that the *printArea()* method in the superclass is overriden by the subclass *Circle*. And the empty *calculateArea()* method in the superclass is implemented by subclass *Circle* and *Rectangle* in differenct ways.  

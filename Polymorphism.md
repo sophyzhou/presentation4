@@ -60,7 +60,16 @@ int main(int argc, const char * argv[])
 ```
 
 Then we compiled and execute this code, the result is the same with that in [Inheritance](Inheritance.md)
-![Alt text](/image/polymorphism.png) 
 
+```
+Executing the program....
+$demo
+
+2015-12-13 14:38:14.777 demo[24892] Author: Yun Zhou
+2015-12-13 14:38:14.778 demo[24892] Polymorphism
+2015-12-13 14:38:14.778 demo[24892] The area of circle is 314.000000
+2015-12-13 14:38:14.778 demo[24892] The area is 50.000000
+
+```
 
 In this example, when *printArea()* is invoked, it could be the base implementation or it could be an override defined in the *Circle* subclass — the distinction has no impact on how we invoke the method nor does it impact on the type of the variable circle. The only determining factor is whether and how the *Circle* class overrides this method from the base class.

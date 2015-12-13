@@ -13,6 +13,8 @@ This presentation gives a general introduction to Objective-C with examples and 
 
 - [Introduction](Introduction.md)  
 
+- [Program Structure](Program Structure.md)  
+
 ###Chapter 2: Basic Objective-C 
   
 - [Classes and Objects](Classes and Objects.md)  
@@ -21,7 +23,7 @@ This presentation gives a general introduction to Objective-C with examples and 
 
 - [Polymorphism](Polymorphism.md)  
 
-- [Encapsulation](Encapsulate.md)  
+- [Data Encapsulation](Encapsulate.md)  
 
 ###Chapter 3: Advanced Objective-C
  
@@ -30,7 +32,5 @@ This presentation gives a general introduction to Objective-C with examples and 
 - [Protocols](Protocols.md)  
 
 ###Chapter 4: Summary  
-
-- [Summary](Summary.md)  
 
 - [Reference](Reference.md)  
