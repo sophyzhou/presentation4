@@ -21,7 +21,7 @@ This presentation gives a general introduction to Objective-C with examples and 
 
 - [Polymorphism](Polymorphism.md)  
 
-- [Encapsulation](Encapsulate.md)  
+- [Data Encapsulation](Encapsulate.md)  
 
 ###Chapter 3: Advanced Objective-C
  
