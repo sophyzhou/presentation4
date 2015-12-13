@@ -46,6 +46,7 @@ Defining property is a robust way to handle object’s data. The properties are 
 
 First, as we have seen in the above code, properties is declared by using keyword **@property**.Then this keyword is followed with *property attribute*, which define how the property behaves. Here the property attributes are *nonatomic* and *readwrite* in above sample code. Then it is followed by the datatype of the variable. Some commonly used attributes are summarized below.
 
+"
 - **getter=**: 	Use a custom name for the getter method.
 - **setter=**: 	Use a custom name for the setter method.
 - **readwrite** : Give read and write access to the property.
@@ -55,8 +56,9 @@ First, as we have seen in the above code, properties is declared by using keywor
 - **weak**:	Create a non-owning relationship between the property and the assigned value. Use this to prevent retain cycles.
 - **copy**:	Create a copy of the assigned value instead of referencing the existing instance.
 - **retain**:  The retain attribute, instructs the setter to retain the value when it’s being assigned and release the previous value if set.   
+"
 
-                                                              referenced from: http://rypress.com/tutorials/objective-c/properties
+referenced from: http://rypress.com/tutorials/objective-c/properties
 
 After we define the property in the class interface, we need to also define the **property implementation** as below:
 
