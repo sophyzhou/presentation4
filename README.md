@@ -31,8 +31,6 @@ This presentation gives a general introduction to Objective-C with examples and 
 
 - [Protocols](Protocols.md)  
 
-###Chapter 4: Summary  
-
-- [Summary](Summary.md)  
+###Chapter 4: Reference 
 
 - [Reference](Reference.md)  
