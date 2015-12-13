@@ -143,4 +143,4 @@ int main(int argc, const char * argv[])
 
 ```
 
-![Alt text](/image/inheritance.png.png) 
+![Alt text](/image/inheritance.png) 
