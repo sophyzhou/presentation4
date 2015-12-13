@@ -143,4 +143,7 @@ int main(int argc, const char * argv[])
 
 ```
 
+And we compile and execute the code, the result is like below:
 ![Alt text](/image/inheritance.png) 
+
+we can find that the *printArea()* method in the superclass is overriden by the subclass *Square*. And the empty *calculateArea()* method in the superclass is implemented by subclass *Square* and *Rectangle* in differenct ways.  
