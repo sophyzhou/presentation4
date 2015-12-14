@@ -16,7 +16,7 @@ In this chapter we will discuss the syntax to define a protocol, and explains ho
 A syntax of protocol is shown below.
 
 ```
-@protocol MyProtocol
+@protocol SophiaProtocol
 @required
 // list of required methods and properties
 @optional
@@ -28,24 +28,24 @@ Protocols can include declarations for both methods and properties. Keyword **@r
 
 ##Conforming to Protocols
 
-Here is the syntax for a class named *MyClass* conforming to a protocol named *MyProtocol*:
+Here is the syntax for a class named *SophiaClass* conforming to a protocol named *SophiaProtocol*:
 
 ```
-@interface MyClass : NSObject <MyProtocol>
+@interface SophiaClass : NSObject <SophiaProtocol>
 ...
 @end
 ```
 
-The above code means that any instance of *MyClass* will respond not only to the methods declared specifically in the interface, but that *MyClass* also provides implementations for the required methods in *MyProtocol*. Since the adoption of the protocol is sufficient, we do not need to redeclare the protocol methods in the class interface.
+The above code means that any instance of *SophiaClass* will respond not only to the methods declared specifically in the interface, but that *SophiaClass* also provides implementations for the required methods in *SophiaProtocol*. Since the adoption of the protocol is sufficient, we do not need to redeclare the protocol methods in the class interface.
 
 In order to apply multiple protocols, you can specify them as a comma-separated list, like this:
 
 ```
-@interface MyClass : NSObject <MyProtocol, MySecondProtocol, MyThirdProtocol>
+@interface SophiaClass : NSObject <FirstProtocol, SecondProtocol, ThirdProtocol>
 ...
 @end
 ```
 
-After we have indicated conformance to a protocol, the class has to provide implementations of methods for each of the required protocol methods. And you can choose any optional methods to implement when they are needed.  The compiler will warn you if you fail to implement any of the required methods.
+After we make the class conform to a protocol, the class has to provide implementations of methods for each of the required protocol methods. And you can choose any optional methods to implement when they are needed. The compiler will warn you if you fail to implement any of the required methods.
 
 
